@@ -1,0 +1,37 @@
+
+
+
+
+.book {
+    background-color: #002452;
+    list-style: lower-roman;
+    border-radius: 12px;
+    padding:8px;
+    margin:45px;
+    color:black;
+    font-weight: bold;
+    
+   } 
+
+  
+  
+   .book h2 {
+     font-size: 2rem; 
+    color: #f7e702;
+  }
+  
+  .book h3 {
+    color: green;
+    font-style: italic;
+     margin: 0;
+    font-size: 1rem; 
+  }
+  .book p{
+    font-size: medium;
+    font-weight: bolder;
+    color:white;
+  }  
+  
+
+ 
+  

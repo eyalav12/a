@@ -1,0 +1,32 @@
+.movie {
+    background-color: #002452;
+    list-style: lower-roman;
+    border-radius: 12px;
+    padding:8px;
+    margin:45px;
+    color:black;
+    font-weight: bold;
+     
+   } 
+
+  
+  
+   .movie h2 {
+     font-size: 2rem; 
+    color: #f7e702;
+  }
+  
+  .movie h3 {
+    color: green;
+    font-style: italic;
+     margin: 0;
+    font-size: 1rem; 
+  }
+  .movie p{
+    font-size: medium;
+    font-weight: bolder;
+    color:white;
+  }  
+  
+
+ 
