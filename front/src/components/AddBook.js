@@ -17,7 +17,7 @@ function AddBook(){
         console.log(bookName);
 
         try{
-            const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(bookName)}&key=AIzaSyCeBcIm-E38NZ3gYey7DgORlc10kpMz9B8`);
+            const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(bookName)}&key=${process.env.REACT_APP_KEY}`);
             
             if(!response){
                 throw new Error("failed to fetch book");

@@ -14,7 +14,7 @@ function AddMovie(){
         setMovieName('');
         
         try{
-            const response=await fetch(`https://api.themoviedb.org/3/search/movie?api_key=536db289ede496e7481619268bd1e3f7&query=${encodeURIComponent(movieName)}`);
+            const response=await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${REACT_APP_KEY_M}&query=${encodeURIComponent(movieName)}`);
             if(!response.ok){
                 throw new Error('failed to fetch movie info');
             }
